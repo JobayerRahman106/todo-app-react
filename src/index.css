@@ -174,3 +174,52 @@
       margin: 0;
       font-size: 16px;
     }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 0;
+      }
+      .todo-container {
+        border-radius: 0;
+        max-height: 100dvh;
+        height: 100dvh;
+        box-shadow: none;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header {
+        padding: 20px 16px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header h1 {
+        font-size: 23px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .input-area {
+        padding: 16px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      #todo-input {
+        padding: 14px 16px;
+        font-size: 15.5px;
+      }
+      #add-btn {
+        padding: 0 22px;
+        min-width: 64px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .edit-btn, .delete-btn, .update-btn {
+        width: 48px;
+        height: 48px;
+        font-size: 19px;
+      }
+    }
