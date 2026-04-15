@@ -70,7 +70,6 @@
       border-radius: 12px;
       font-size: 16px;
       cursor: pointer;
-      transition: background 0.3s;
     }
 
     .add-btn:hover {
